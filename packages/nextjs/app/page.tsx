@@ -14,7 +14,7 @@ const Home: NextPage = () => {
 
   return (
     <>
-      <div className="flex items-center flex-col flex-grow pt-10">
+      <div className="flex justify-center items-center flex-col flex-grow">
         <div className="px-5">
           <div className="flex justify-center items-center space-x-2 flex-col sm:flex-row">
             {isConnected ? (
