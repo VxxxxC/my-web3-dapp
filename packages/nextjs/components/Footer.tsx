@@ -28,45 +28,6 @@ export const Footer = () => {
           <SwitchTheme className="pointer-events-auto" />
         </div>
       </div>
-      <div className="w-full">
-        <ul className="menu menu-horizontal w-full">
-          <div className="flex justify-center items-center gap-2 text-sm w-full">
-            <div className="text-center">
-              <a
-                href="https://github.com/alchemyplatform/scaffold-alchemy"
-                target="_blank"
-                rel="noreferrer"
-                className="link"
-              >
-                Fork me
-              </a>
-            </div>
-            <span>·</span>
-            <div className="flex justify-center items-center gap-2">
-              <p className="m-0 text-center">
-                Built with <HeartIcon className="inline-block h-4 w-4" /> at
-              </p>
-              <a
-                className="flex justify-center items-center gap-1"
-                href="https://alchemy.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <div className="flex relative w-3 h-3">
-                  <Image alt="Alchemy logo" className="cursor-pointer" fill src="/logo.svg" />
-                </div>
-                <span className="link">Alchemy</span>
-              </a>
-            </div>
-            <span>·</span>
-            <div className="text-center">
-              <a href="https://discord.com/invite/9GnAcXQYZ6" target="_blank" rel="noreferrer" className="link">
-                Support
-              </a>
-            </div>
-          </div>
-        </ul>
-      </div>
     </div>
   );
 };
